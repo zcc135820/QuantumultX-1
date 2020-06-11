@@ -50,7 +50,7 @@ eval_script.js = type=http-response,requires-body=1,pattern=^https://sp\.kaola\.
 
 eval_script.js = type=http-response,requires-body=1,pattern=^https?:\/\/.*\.(lago|fuli|xiang(jiao|xiang))apps\.com\/(ucp\/index|getGlobalData|.+\/reqplay\/),script-path=eval_script.js
 
-eval_script.js = type=http-response,requires-body=1,pattern=^https://account.wps.*/api/users/,script-path=eval_script.js
+eval_script.js = type=http-response,requires-body=1,pattern=;^https://account.wps.*/api/users/,script-path=eval_script.js
 
 eval_script.js = type=http-response,requires-body=1,pattern=^https:\/\/api\.gotokeep\.com\/(.+\/subject|.+\/dynamic),script-path=eval_script.js
 
